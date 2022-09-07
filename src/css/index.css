@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	color: rgb(255, 0, 0);
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: sans-serif;
+    margin: 0;
+    background: url("https://img.wallpapersafari.com/img720/93/25/jaC32J.jpg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.85;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+
+}
+header h1{
+    font-size: 40px;
+    color: red;
+    padding-bottom: 10px;
+}
+
+.logo img{
+    height: 50px;
+    align-items:center ;
+    margin-right: 1200px;
+
+}
+a{
+text-size-adjust: 15px;
+text-decoration: none;
+color: #f7fef8;
+
+}
+
+
+.search{
+    margin: auto;
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search button{
+    background-color: rgb(250, 5, 5);
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+}
+#search{
+    width: 30vw;
+    padding: 8px 15px;
+    border-radius: 5px 0px 0px 5px;
+    border: rgb(7, 111, 247) solid 1px;
+}
+
+.dados{
+    border: none;
+    width: 80%;
+    height: 15px;
+    text-align: end;
+}
+
+.dados:disabled {
+    background-color: transparent;
+    color: rgb(245, 250, 248);
+    font-size: 20px;
+
+}
+
+section{
+    margin: auto;
+    width: 95%;
+    height: 78vh;
+    border-radius: 15px 15px 0px 0px;
+    border: rgb(250, 3, 3) solid 1px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form{
+    
+    margin: auto;
+    width: 100%;
+    height: 68vh;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+
+section article{
+    width: 50%;
+}
+
+table {
+    
+    margin: auto;
+    width: 40vw;
+    overflow: hidden;
+}
+thead{
+    text-transform: capitalize;
+    height: 5vh;
+    background-color: black;
+    color: rgb(255, 10, 10);
+    font-size: 20px;
+}
+
+thead tr th{
+    
+
+    padding: 10px 20px;
+}
+
+tbody tr{
+    height: 55px;
+    
+}
+tbody tr td{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: 1px solid rgb(4, 21, 252);
+}
+
+i{
+    margin: auto;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url('../img/dado.jpg');
+    background-size: 150px;
+}
+
+.d1{ background-position: -8px -8px;}
+
+.d2{ background-position: -55px -8px;}
+
+.d3{ background-position: -100px -8px;}
+
+.d4{ background-position: -8px -55px;}
+
+.d5{ background-position: -55px -55px;}
+
+.d6{ background-position: -100px -55px;}
+
+
+#grafica{
+    
+    margin: auto;
+    margin-top: auto;
+    width: 45vw;
+    max-width: 45vw;
+    height: 65vh;
+}
+nav a{
+    
+    font-weight: 600;
+    padding: 15px;
+
+}
+
+nav a:hover{
+    
+    color: red;
+}

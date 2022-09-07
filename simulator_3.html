@@ -1,0 +1,77 @@
+<head>
+
+    <title>dados</title>
+
+    <script >
+
+      function computar()       
+
+        {   var tirada; f=[0,0,0,0,0,0,0]
+
+            n=parseInt(document.datos.n.value)
+
+        for(i=0 ; i<n; i++)
+
+         {  
+            tirada=Math.round(6*Math.random(1)+0.5)  ;  
+            f[tirada]=f[tirada]+1;
+            console.log(f[tirada]) 
+         }
+
+        for(i=1 ; i<7; i++)
+
+           {  var barra=""; var b=Math.round(100*(f[i]/n));
+               
+           for(j=0 ; j<b; j++)  {  barra=barra+"*" }
+
+              document.datos[3*i-1].value=f[i]  ; 
+
+              document.datos[3*i].value=f[i]/n  ;
+
+              document.datos[3*i+1].value=barra      
+
+             }
+
+          }
+
+     </script>
+
+ </head>
+
+<body bgcolor=cyan>
+
+   <form name="datos">
+
+   Número de lanzamientos:<input type="text" name="n" size=3>
+
+      <input type="button" value="Lanzar" OnClick="computar()"><HR>
+
+      Frecuencia de 1 = <input type="text"  size=3>
+      F relativa <input type="text"  size=3>
+      <input type="text" ><BR>
+
+      Frecuencia de 2 = <input type="text"  size=3>
+      F relativa <input type="text"  size=3>
+      <input type="text" ><BR>
+
+      Frecuencia de 3 = <input type="text"  size=3>
+      F relativa <input type="text"  size=3>
+      <input type="text" ><BR>
+
+      Frecuencia de 4 = <input type="text"  size=3>
+      F relativa <input type="text"  size=3>
+      <input type="text" ><BR>
+
+      Frecuencia de 5 = <input type="text"  size=3>
+      F relativa <input type="text"  size=3>
+      <input type="text" ><BR>
+
+      Frecuencia de 6 = <input type="text"  size=3>
+      F relativa <input type="text"  size=3>
+      <input type="text" ><BR>
+
+   </form>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    
+    <title ><h1>Simulato</h1> </title>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+    <header>
+        <h1>Simulator</h1>
+        <h2>Simulacion dado</h2>
+        <div class="logo">
+            <img src="img/dados-4gif" alt="">
+           
+        </div>
+        <div>
+            <nav>
+                <a href="simulator_1.html" class="nav-link">Simulator 1</a>
+                <a href="simulator_2.html" class="nav-link">Simulator 2</a>
+                <a href="simulator_3.html" class="nav-link">Simulator 3</a>
+            </nav>
+        </div>
+    </header>
+</head>
+<body>
+   
+    <section>
+        <div class="search">
+            <div class="campo-buscar">
+                <input type="search" name="search" id="search">
+                <button id="run">! Lanzamiento !</button>
+            </div>
+        </div>
+        <div class="form">  
+        <article>
+            
+            
+                
+                <table >
+                    <thead>
+                        <tr>
+                            <th >Cara</th><BR>
+                            <th>Absoluta</th>
+                            <th>Relativa</th>
+                            <th>Acumulada</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table">
+                        <tr>
+                            <td><i class="d1"></i></td>
+                            <td><input type="number" id="d1" class="dados" value="0" placeholder="0" disabled></td>
+                            <td><input type="number" id="r1" class="dados" value="0" placeholder="0" disabled></td>
+                            <td><input type="number" id="a1" class="dados" value="0" placeholder="0" disabled></td>
+                        </tr>
+                        <tr>
+                            <td><i class="d2"></i></td>
+                            <td><input type="number" id="d2" class="dados" value="0" placeholder="0" disabled></td>
+                            <td><input type="number" id="r2" class="dados" value="0" placeholder="0" disabled></td>
+                            <td><input type="number" id="a2" class="dados" value="0" placeholder="0" disabled></td>
+                        </tr>
+                        <tr>
+                            <td><i class="d3"></i></td>
+                            <td><input type="number" id="d3" class="dados" value="0" placeholder="0" disabled></td>
+                            <td><input type="number" id="r3" class="dados" value="0" placeholder="0" disabled></td>
+                            <td><input type="number" id="a3" class="dados" value="0" placeholder="0" disabled></td>
+                        </tr>
+                        <tr>
+                            <td><i class="d4"></i></td>
+                            <td><input type="number" id="d4" class="dados" value="0" placeholder="0" disabled></td>
+                            <td><input type="number" id="r4" class="dados" value="0" placeholder="0" disabled></td>
+                            <td><input type="number" id="a4" class="dados" value="0" placeholder="0" disabled></td>
+                        </tr>
+                        <tr>
+                            <td><i class="d5"></i></td>
+                            <td><input type="number" id="d5" class="dados" value="0" placeholder="0" disabled></td>
+                            <td><input type="number" id="r5" class="dados" value="0" placeholder="0" disabled></td>
+                            <td><input type="number" id="a5" class="dados" value="0" placeholder="0" disabled></td>
+                        </tr>
+                        <tr>
+                            <td><i class="d6"></i></td>
+                            <td><input type="number" id="d6" class="dados" value="0" placeholder="0" disabled></td>
+                            <td><input type="number" id="r6" class="dados" value="0" placeholder="0" disabled></td>
+                            <td><input type="number" id="a6" class="dados" value="0" placeholder="0" disabled></td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+        </article>
+        <article >
+            <canvas id="grafica" disabled></canvas>
+        </article>
+    </div>
+    </section>
+    <footer></footer>
+    <script src="src/js/simu1.js"></script>
+</body>
+</html>
